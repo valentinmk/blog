@@ -11,7 +11,7 @@
           label="search"
         />
         <span class="icon is-left">
-          <i class="fas fa-search" aria-hidden="true"></i>
+          <fa-icon :icon="['fas', 'search']" />
         </span>
       </p>
     </div>

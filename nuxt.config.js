@@ -5,9 +5,11 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   // router: {
-  //  base: '/blog/',
+  //   base: '/blog/',
   // },
-
+  generate: {
+    fallback: '404.html',
+  },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Valentinmk Dev blog',
@@ -66,7 +68,13 @@ export default {
       {
         component: 'fa',
         icons: {
-          solid: ['faEnvelope', 'faCode', 'faHeart', 'faAngleDoubleRight'],
+          solid: [
+            'faEnvelope',
+            'faCode',
+            'faHeart',
+            'faAngleDoubleRight',
+            'faSearch',
+          ],
           brands: [
             'faPython',
             'faJs',
@@ -112,13 +120,6 @@ export default {
     // Options
     dir: 'posts',
     liveEdit: false,
-    markdown: {
-      prism: {
-        customClass: {
-          prefix: 'prism-',
-        },
-      },
-    },
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
