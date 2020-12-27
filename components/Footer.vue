@@ -11,6 +11,12 @@
           >CC BY NC SA 4.0</a
         >.
       </p>
+      <p>
+        <a target="_blank" href="https://icons8.com/icons/set/code"
+          >Code icon</a
+        >
+        icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      </p>
     </div>
   </footer>
 </template>

@@ -30,8 +30,8 @@ export default {
     link: [
       {
         rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico',
+        type: 'image/png',
+        href: '/icons8-code-48.png',
       },
     ],
   },
@@ -126,7 +126,7 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   pwa: {
     icon: {
-      fileName: 'icon.png',
+      fileName: 'icons8-code-48.png',
       purpose: 'maskable',
     },
   },

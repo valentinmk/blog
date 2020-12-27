@@ -5,7 +5,7 @@
     aria-label="main navigation is-family-code"
   >
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://valentinmk.github.com">
+      <a class="navbar-item" href="https://valentinmk.github.io/blog">
         <img
           src="https://avatars2.githubusercontent.com/u/12662946?s=460&u=e3e6eba7ee0cf32e7400284b4fce0fe872170f74&v=4"
           height="32"
